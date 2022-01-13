@@ -1,0 +1,68 @@
+Pessoal, amanhã vou repassar os detalhes da linguagem ruby e uma mini aula sobre o todo (coisa de até 20 minutos, menos), e repassar a atividade, mas vi que alguns ja estão meio que com tudo pronto e querem "meter a mão na massa", então segue a atividade:
+
+Crie 2 classes ruby para que se possa realizar conversões de medidas, uma claase para temperatura e outra para distâncias.
+
+Você pode seguir como exemplo:
+
+temperature.rb
+
+class Temperature
+  def initialize(value, unit)
+  end
+
+  def to_fahrenheit
+    nil
+  end
+end
+
+
+
+Conversões:
+* Celsius → Fahrenheit: C * 9/5 + 32
+* Celsius → Kelvin: C + 273.15
+* Fahrenheit → Celsius: (F - 32) * 5/9
+* Fahrenheit → Kelvin: (F - 32) * 5/9 + 273.15
+* Kelvin → Fahrenheit: (K - 273.15) * 9/5 + 32
+* Kelvin → Celsius: K - 273.15
+
+metric.rb
+
+class Metric
+  def initialize(value, unit)
+  end
+
+  def to_inch
+    nil
+  end
+end
+
+
+
+
+Conversões:
+* 1 polegada (inch) = 2,54 centímetros.
+* 1 centímetro = 0,3937 polegadas (inches).
+* 1 pé (foot) = 12 polegadas = 30,48 cm.
+* 1 metro = 39,37 polegadas = 1,0936 jardas (yards).
+* 1 jarda (yard) = 3 pés = 36 polegadas = 0,9144 metros = 91,44 centímetros.
+* 1 milha (mile) = 1,6 km = 5 280 pés
+
+Testes:
+
+$ irb
+require_relative 'metric'
+metric = Metric.new(1000, 'm')
+metric.to_cm
+=> 100000
+metric.to_m
+=> 1000
+metric.to_km
+=> 1
+metric.to_inch
+=> 39370.08
+metric.to_foot
+=> 3280.84
+metric.to_yard
+=> 1093.61
+metric.to_mile
+=> 0.62
