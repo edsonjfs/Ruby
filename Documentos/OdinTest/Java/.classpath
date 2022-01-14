@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Devdojo/Aula01"/>
+	<classpathentry kind="src" path="Devdojo/maratonaJava/src"/>
+	<classpathentry kind="src" path="projetosDeJava/meusEstudosDeJava/campoMinado/campoMinado/src"/>
+	<classpathentry kind="src" path="projetosDeJava/meusEstudosDeJava/campoMinado/campoMinado/test"/>
+	<classpathentry kind="src" path="projetosDeJava/meusEstudosDeJava/campoMinado/CampoMinado02/src"/>
+	<classpathentry kind="src" path="projetosDeJava/meusEstudosDeJava/exercicios/src"/>
+	<classpathentry kind="output" path="Devdojo/maratonaJava/bin"/>
+</classpath>
